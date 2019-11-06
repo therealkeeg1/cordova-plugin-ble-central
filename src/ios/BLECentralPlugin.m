@@ -427,6 +427,7 @@
         [initiator withFirmware:firmware];
         initiator.enableUnsafeExperimentalButtonlessServiceInSecureDfu = true;
         initiator.packetReceiptNotificationParameter = 10;
+        initiator.alternativeAdvertisingNameEnabled = false;
         initiator.forceDfu = false;
 
         // bind self as a delegate for everything
