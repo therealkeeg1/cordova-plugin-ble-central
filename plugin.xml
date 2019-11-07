@@ -14,7 +14,7 @@
     <issue>https://github.com/pni-ciklum/cordova-plugin-ble-central/issues</issue>
 
     <js-module src="www/ble.js" name="ble">
-        <clobbers target="ble" />
+        <clobbers target="BLECentral" />
     </js-module>
 
     <platform name="ios">
