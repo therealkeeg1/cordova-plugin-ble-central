@@ -13,8 +13,8 @@
     <repo>https://github.com/pni-ciklum/cordova-plugin-ble-central.git</repo>
     <issue>https://github.com/pni-ciklum/cordova-plugin-ble-central/issues</issue>
 
-    <js-module src="www/ble.js" name="ble">
-        <clobbers target="cordova.plugins.BLECentral" />
+    <js-module src="www/ble.js" name="BLECentral">
+        <clobbers target="BLECentral" />
     </js-module>
 
     <platform name="ios">
